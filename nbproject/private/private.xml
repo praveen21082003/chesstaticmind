@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/globalVars.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/postMove.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/login.php</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/troubleshooting.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/index.html</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/login_process.php</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/save_move.php</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/tools.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/promotion.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/gameTracking.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/styles/pngMenu.css</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/sidebar.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/computerMove.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/handDrag.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/bookTest.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/autoMove.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/register_process.php</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/handleMoves.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/newGame.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/pieceClasses.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/rateBoardstate.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/winnerLogic.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/register.php</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/checkRepetition.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/init.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/handlePNG.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/colorStyle.js</file>
+            <file>file:/C:/xampp/htdocs/chesstacticmind/scripts/swapTurn.js</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch - Chess-Game</title>
+    <!-- Add your CSS stylesheets if needed -->
+    <style>
+        /* Additional styles for buttons */
+        .watch-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .watch-buttons button {
+            margin: 0 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .watch-buttons button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <!-- Include your header file if you have one -->
+    <?php include 'header.php'; ?>
+
+    <!-- Video section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="section-title">Video Coaching</h2>
+                    <p class="section-description">Watch instructional videos to improve your chess skills.</p>
+                </div>
+            </div>
+            
+          
+
+            <!-- Watch buttons -->
+            <div class="watch-buttons">
+                <button onclick="window.location.href='tournaments.html'">Watch Tournaments</button>
+                <button onclick="window.location.href='improve-skills.html'">Improve Skills</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include your footer file if you have one -->
+    <?php include 'footer.php'; ?>
+
+    <!-- Include your JavaScript files if needed -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

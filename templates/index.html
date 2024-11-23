@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Chess Tactics Mind</title>
+  <!-- Add your CSS styles or link to external stylesheets here -->
+  <style>
+    /* Basic styling for the form */
+    form {
+      max-width: 300px;
+      margin: 0 auto;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Style for labels */
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    /* Style for text input fields */
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 12px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    /* Style for the submit button */
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    /* Hover effect for the submit button */
+    button:hover {
+      background-color: #45a049;
+    }
+
+    /* Styling for the result section */
+    #result {
+      margin-top: 20px;
+    }
+
+    /* Additional styles as needed */
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <!-- Your existing HTML content for the app -->
+    <!-- ... -->
+    <form action="/analyze" method="post">
+      <label for="opponent_move">Enter opponent's move:</label>
+      <input type="text" id="opponent_move" name="opponent_move">
+      <br>
+      <label for="user_moves">Enter your move(s):</label>
+      <input type="text" id="user_moves" name="user_moves">
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Result section -->
+    {% if show_result %}
+    <div id="result">
+      <h1>Analysis Result</h1>
+      <p>User Moves: {{ user_moves }}</p>
+      <p>Opponent Moves: {{ opponent_moves }}</p>
+      <p>Best Move: {{ best_move }}</p>
+      <p>Coaching Insight: {{ coaching_insight }}</p>
+    </div>
+    {% endif %}
+  </div>
+</body>
+
+</html>
